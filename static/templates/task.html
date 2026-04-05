@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Tasks</title>
+</head>
+<body>
+    <h1>Tasks</h1>
+    <ul>
+        {% for task_id, task in tasks.items() %}
+        <li>
+            Title: {{tasks[task_id].title}} <br />
+            Description: {{tasks[task_id].description}} <br />
+            Status: {{tasks[task_id].status}} <br />
+            Created at: {{tasks[task_id].created_at}} <br />
+            Updated at: {{tasks[task_id].updated_at}} <br />
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
