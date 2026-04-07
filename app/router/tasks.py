@@ -7,17 +7,6 @@ from typing import Annotated
 import json
 import datetime
 
-# todo:
-'''
-    - modify task id automation
-    - (done) improve created_at and updated_at to reflect actual creation and update times
-    - (done) add a way to mark a task as done
-    - (done) add a way to mark a task as in-progress
-    - (done) add a way to mark a task as todo
-    - (done) read tasks in better format for users to read
-    - create a README.md file to explain how to use the API
-'''
-
 router = APIRouter(
     prefix="/tasks",
     tags=["tasks"]
