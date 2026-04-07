@@ -1,1 +1,1 @@
-Task Tracker creates a viewable list of tasks that can be modified.Modification includes adding a task, marking a task as 'todo', 'in-progress', and 'done', and deleting a task. 
+Task Tracker creates a viewable list of tasks that can be modified. Modification includes adding a task, marking a task as 'todo', 'in-progress', and 'done', and deleting a task. 
